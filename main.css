@@ -4,6 +4,10 @@
     font-family: 'Bakbak One', cursive;
     font-size: 1.1rem;
 }
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
 
 .container{
     display: flex;
@@ -12,11 +16,47 @@
 }
 
 .item-left{
-    align-self: flex-start;
+    align-self: center;
+    flex-basis: auto;
+    flex-grow: initial;
 }
 
 .item-right{
-    align-self: flex-end;
+    align-self: center;
     flex-basis: auto;
     flex-grow: initial;
+    justify-content: center;
+}
+
+.img{
+    width: 100%;
+    max-width: 400px;
+    max-height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.menu{
+    background-color: rgb(235, 179, 59);
+}
+
+.menu-items{
+    float: left;
+}
+.menu-items a{
+    display: block;
+  color: rgb(116, 53, 53);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+     font-size: 1.3rem;
+}
+
+.section-heading{
+    color: rgb(202, 91, 91);
+   font-size: 1.5rem;
 }
